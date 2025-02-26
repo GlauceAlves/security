@@ -22,7 +22,7 @@ public class EmpresaConfiguracaoController {
 	public EmpresaConfiguracaoController(EmpresaConfiguracaoRepository repository) {
 		this.repository = repository;
 	}
-
+	
 	@GetMapping("/empresaconfiguracao")
 	List<EmpresaConfiguracao> all() {
 		return repository.findAll();

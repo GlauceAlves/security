@@ -1,7 +1,7 @@
 package sys.security.modelenum;
 
 public enum TipoPerfilEnum {
-	DESENVOLVEDOR,
+	DESENVOLVEDOR ,
 	ADMINISTRADOR,
 	GERENTE,
 	COMUM;
